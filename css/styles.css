@@ -1,0 +1,109 @@
+:root {
+  --link-color: #212121;
+  --link-active-color: #2196f3;
+  --text-font-family: "Roboto", sans-serif;
+  --text-color: #212121;
+  --heading-color: #212121;
+  --small-text-color: #757575;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--text-font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--text-font-family);
+  color: var(--text-color);
+}
+
+p,
+span {
+  font-family: var(--text-font-family);
+  color: var(--small-text-color);
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1600px;
+}
+
+.container-nav {
+  display: flex;
+  background-color: #fff;
+}
+
+.webstudio {
+  padding-left: 215px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.web,
+.studio {
+  color: var(--link-active-color);
+  font-size: 26px;
+  font-family: Raleway;
+  font-weight: 700;
+}
+
+.studio {
+  color: #000000;
+}
+
+.nav-menu ul {
+  display: flex;
+  gap: 50px;
+  margin-left: 93px;
+  margin-top: 48px;
+  padding-left: 0px;
+}
+
+.nav-contacts {
+  display: flex;
+  gap: 40px;
+  margin-left: 385px;
+  padding-top: 48px;
+}
+
+.studio-activ,
+.mail {
+  color: #2196f3;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
+.portfolio,
+.contacts,
+.tel {
+  color: var(--text-color);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
+.tel {
+  color: #757575;
+}

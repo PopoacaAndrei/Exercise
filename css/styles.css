@@ -76,9 +76,43 @@ a {
 
 .nav-contacts {
   display: flex;
-  gap: 40px;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  gap: 30px;
+  align-items: center;
   margin-left: 385px;
-  padding-top: 48px;
+  padding-top: 5px;
+}
+
+.nav-contacts > a {
+  display: flex;
+  gap: 10px;
+}
+.nav-contacts > a > span {
+  display: flex;
+  align-items: center;
+}
+
+.icon-mail {
+  height: 15px;
+  width: 16px;
+}
+
+.icon-smartphone {
+  height: 16px;
+  width: 20px;
+}
+
+.mail:hover,
+.mail:focus,
+.tel:focus,
+.tel:hover {
+  color: var(--link-active-color);
+}
+
+.icon-mail:hover,
+.icon-smartphone:hover {
+  fill: #2196f3;
 }
 
 .studio-activ,
@@ -106,4 +140,10 @@ a {
 
 .tel {
   color: #757575;
+}
+
+.hero-section {
+  background: #2f303a;
+  height: 600px;
+  flex-shrink: 0;
 }

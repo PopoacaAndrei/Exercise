@@ -51,9 +51,7 @@
             >
               <span class="header-icon header-contacts-mail">
                 <svg class="mail">
-                  <use
-                    href="./images/icons.svg/symbol-defs.svg#icon-mail"
-                  ></use>
+                  <use href="./images/icons.svg#icon-envelope"></use>
                 </svg> </span
               >info@devstudio.com</a
             >
@@ -66,9 +64,7 @@
             >
               <span class="header-icon header-contacts-phone">
                 <svg class="phone">
-                  <use
-                    href="./images/icons.svg/symbol-defs.svg#icon-smartphone"
-                  ></use>
+                  <use href="./images/icons.svg#icon-smartphone"></use>
                 </svg> </span
               >+1 212-772-4150</a
             >
@@ -87,39 +83,67 @@
           </button>
         </div>
 
-        <div class="description-what-we-do">
-          <section class="details">
-            <ul class="qualities-list">
-              <li class="qualities">
-                <h3 class="qualities-title">ATTENTION TO DETAILS</h3>
-                <p class="qualities-paragraph">
-                  We go into all the details and processes of your business to
-                  develop a customized solution.
-                </p>
-              </li>
-              <li class="qualities">
-                <h3 class="qualities-title">PUNCTUALITY</h3>
-                <p class="qualities-paragraph">
-                  With us, you can feel safe and secure. An important principle
-                  of the company: respect your time and deadlines.
-                </p>
-              </li>
-              <li class="qualities">
-                <h3 class="qualities-title">PLANNING</h3>
-                <p class="qualities-paragraph">
-                  You will be able to observe and participate in every phase of
-                  solution development and implementation.
-                </p>
-              </li>
-              <li class="qualities">
-                <h3 class="qualities-title">MODERN TECHNOLOGIES</h3>
-                <p class="qualities-paragraph">
-                  We use innovative tools to solve assigned tasks. It's time to
-                  simplify work processes.
-                </p>
-              </li>
-            </ul>
-          </section>
+        <div class="qualities-icons-text">
+          <div class="qualities-icons small-container">
+            <rect class="qualities-rect">
+              <svg class="qualities-icon">
+                <use href="./images/icons.svg#icon-antenna"></use>
+              </svg>
+            </rect>
+
+            <rect class="qualities-rect">
+              <svg class="qualities-icon">
+                <use href="./images/icons.svg#icon-clock"></use>
+              </svg>
+            </rect>
+
+            <rect class="qualities-rect">
+              <svg class="qualities-icon">
+                <use href="./images/icons.svg#icon-diagram"></use>
+              </svg>
+            </rect>
+
+            <rect class="qualities-rect">
+              <svg class="qualities-icon">
+                <use href="./images/icons.svg#icon-astronaut"></use>
+              </svg>
+            </rect>
+          </div>
+
+          <div class="description-what-we-do">
+            <section class="details">
+              <ul class="qualities-list">
+                <li class="qualities">
+                  <h3 class="qualities-title">ATTENTION TO DETAILS</h3>
+                  <p class="qualities-paragraph">
+                    We go into all the details and processes of your business to
+                    develop a customized solution.
+                  </p>
+                </li>
+                <li class="qualities">
+                  <h3 class="qualities-title">PUNCTUALITY</h3>
+                  <p class="qualities-paragraph">
+                    With us, you can feel safe and secure. An important
+                    principle of the company: respect your time and deadlines.
+                  </p>
+                </li>
+                <li class="qualities">
+                  <h3 class="qualities-title">PLANNING</h3>
+                  <p class="qualities-paragraph">
+                    You will be able to observe and participate in every phase
+                    of solution development and implementation.
+                  </p>
+                </li>
+                <li class="qualities">
+                  <h3 class="qualities-title">MODERN TECHNOLOGIES</h3>
+                  <p class="qualities-paragraph">
+                    We use innovative tools to solve assigned tasks. It's time
+                    to simplify work processes.
+                  </p>
+                </li>
+              </ul>
+            </section>
+          </div>
         </div>
 
         <!-- What we do section -->
@@ -150,9 +174,9 @@
       </div>
 
       <!-- Our team section -->
-      <div class="container">
+      <div class="container-our-team">
         <section>
-          <h2>Our Team</h2>
+          <h2 class="Our-team-title">Our Team</h2>
           <div class="cards">
             <ul>
               <li>
@@ -162,12 +186,58 @@
                     alt="Product designer"
                     width="270"
                   />
-                  <div class="first-card">
-                    <h4>Christopher Walker</h4>
-                    <span>Product Designer</span>
+
+                  <h4 class="names">Christopher Walker</h4>
+                  <span class="functions">Product Designer</span>
+
+                  <div class="icon-team-list">
+                    <a
+                      href="https://www.instagram.com/"
+                      target="_blank"
+                      rel="nofollow noopener noreferrer"
+                      class="team-icon"
+                    >
+                      <svg>
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+
+                    <a
+                      href="https://www.twitter.com/"
+                      target="_blank"
+                      rel="nofollow noopener noreferrer"
+                      class="team-icon"
+                    >
+                      <svg>
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+
+                    <a
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                      rel="nofollow noopener noreferrer"
+                      class="team-icon"
+                    >
+                      <svg>
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+
+                    <a
+                      href="https://www.linkedin.com/"
+                      target="_blank"
+                      rel="nofollow noopener noreferrer"
+                      class="team-icon"
+                    >
+                      <svg>
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
                   </div>
                 </div>
               </li>
+
               <li>
                 <div class="card">
                   <img
@@ -175,18 +245,106 @@
                     alt="Frontend developer"
                     width="270"
                   />
-                  <div class="second-card">
-                    <h4>Kylie Evans</h4>
-                    <span>Frontend Developer</span>
+
+                  <h4 class="names">Kylie Evans</h4>
+                  <span class="functions">Frontend Developer</span>
+                  <div class="icon-team-list">
+                    <a
+                      href="https://www.instagram.com/"
+                      target="_blank"
+                      rel="nofollow noopener noreferrer"
+                      class="team-icon"
+                    >
+                      <svg>
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+
+                    <a
+                      href="https://www.twitter.com/"
+                      target="_blank"
+                      rel="nofollow noopener noreferrer"
+                      class="team-icon"
+                    >
+                      <svg>
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+
+                    <a
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                      rel="nofollow noopener noreferrer"
+                      class="team-icon"
+                    >
+                      <svg>
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+
+                    <a
+                      href="https://www.linkedin.com/"
+                      target="_blank"
+                      rel="nofollow noopener noreferrer"
+                      class="team-icon"
+                    >
+                      <svg>
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
                   </div>
                 </div>
               </li>
               <li>
                 <div class="card">
                   <img src="images/marketing.jpg" alt="marketing" width="270" />
-                  <div class="third-card">
-                    <h4>Ryan Harris</h4>
-                    <span>Marketing</span>
+
+                  <h4 class="names">Ryan Harris</h4>
+                  <span class="functions">Marketing</span>
+                  <div class="icon-team-list">
+                    <a
+                      href="https://www.instagram.com/"
+                      target="_blank"
+                      rel="nofollow noopener noreferrer"
+                      class="team-icon"
+                    >
+                      <svg>
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+
+                    <a
+                      href="https://www.twitter.com/"
+                      target="_blank"
+                      rel="nofollow noopener noreferrer"
+                      class="team-icon"
+                    >
+                      <svg>
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+
+                    <a
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                      rel="nofollow noopener noreferrer"
+                      class="team-icon"
+                    >
+                      <svg>
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+
+                    <a
+                      href="https://www.linkedin.com/"
+                      target="_blank"
+                      rel="nofollow noopener noreferrer"
+                      class="team-icon"
+                    >
+                      <svg>
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
                   </div>
                 </div>
               </li>
@@ -197,9 +355,53 @@
                     alt="Ui design"
                     width="270"
                   />
-                  <div class="fourth-card">
-                    <h4>Tyler Moore</h4>
-                    <span>UI Designer</span>
+
+                  <h4 class="names">Tyler Moore</h4>
+                  <span class="functions">UI Designer</span>
+                  <div class="icon-team-list">
+                    <a
+                      href="https://www.instagram.com/"
+                      target="_blank"
+                      rel="nofollow noopener noreferrer"
+                      class="team-icon"
+                    >
+                      <svg>
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+
+                    <a
+                      href="https://www.twitter.com/"
+                      target="_blank"
+                      rel="nofollow noopener noreferrer"
+                      class="team-icon"
+                    >
+                      <svg>
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+
+                    <a
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                      rel="nofollow noopener noreferrer"
+                      class="team-icon"
+                    >
+                      <svg>
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+
+                    <a
+                      href="https://www.linkedin.com/"
+                      target="_blank"
+                      rel="nofollow noopener noreferrer"
+                      class="team-icon"
+                    >
+                      <svg>
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
                   </div>
                 </div>
               </li>
